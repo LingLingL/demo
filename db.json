@@ -18,7 +18,7 @@
     { "id": 3, "project_id" : 1, "name_cht": "tower C", "name_eng": "tower C is very long"},
     { "id": 4, "project_id" : 2, "name_cht": "tower A", "name_eng": "tower A"},
     { "id": 5, "project_id" : 2, "name_cht": "tower B", "name_eng": "tower B"},
-    { "id": 6, "project_id" : 3, "name_cht": "tower C", "name_eng": "tower C is very long"},
+    { "id": 6, "project_id" : 3, "name_cht": "tower C", "name_eng": "tower C is very long"}
   ],
   "floor": [
     { "id": 1, "tower_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
