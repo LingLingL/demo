@@ -1,21 +1,45 @@
 {
   "user": [
-    { "id": 1, "name_cht": "用戶一", "name_eng": "Amy" },
-    { "id": 2, "name_cht": "用戶二", "name_eng": "Bob" },
-    { "id": 3, "name_cht": "用戶三", "name_eng": "Charles" }
+    { "id": 1, "name_cht": "用戶一", "name_eng": "Amy", "company_id": 1 },
+    { "id": 2, "name_cht": "用戶二", "name_eng": "Bob", "company_id": 1 },
+    { "id": 3, "name_cht": "用戶三", "name_eng": "Charles", "company_id": 1 }
   ],
   "company": [
+    { "id": 1, "name_cht": "中國建築", "name_eng": "China State Construction"}
   ],
-  "posts": [
-    { "id": 1, "title": "Ling testing" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "project": [
+    { "id": 1, "name_cht": "項目 A", "name_eng": "Project A"},
+    { "id": 2, "name_cht": "項目 B", "name_eng": "Project B"},
+    { "id": 3, "name_cht": "項目 C", "name_eng": "Project C is very long"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "tower": [
+    { "id": 1, "project_id" : 1, "name_cht": "tower A", "name_eng": "tower A"},
+    { "id": 2, "project_id" : 1, "name_cht": "tower B", "name_eng": "tower B"},
+    { "id": 3, "project_id" : 1, "name_cht": "tower C", "name_eng": "tower C is very long"},
+    { "id": 4, "project_id" : 2, "name_cht": "tower A", "name_eng": "tower A"},
+    { "id": 5, "project_id" : 2, "name_cht": "tower B", "name_eng": "tower B"},
+    { "id": 6, "project_id" : 3, "name_cht": "tower C", "name_eng": "tower C is very long"},
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "floor": [
+    { "id": 1, "tower_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 2, "tower_id" : 1, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 3, "tower_id" : 1, "name_cht": "floor C", "name_eng": "floor C is very long"},
+    { "id": 4, "tower_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 5, "tower_id" : 2, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 6, "tower_id" : 2, "name_cht": "floor C", "name_eng": "floor C is very long"},
+    { "id": 7, "tower_id" : 3, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 8, "tower_id" : 3, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 9, "tower_id" : 3, "name_cht": "floor C", "name_eng": "floor C is very long"}
+  ],
+  "unit": [
+    { "id": 1, "floor_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 2, "floor_id" : 1, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 3, "floor_id" : 1, "name_cht": "floor C", "name_eng": "floor C is very long"},
+    { "id": 4, "floor_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 5, "floor_id" : 2, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 6, "floor_id" : 2, "name_cht": "floor C", "name_eng": "floor C is very long"},
+    { "id": 7, "floor_id" : 3, "name_cht": "floor A", "name_eng": "floor A"},
+    { "id": 8, "floor_id" : 3, "name_cht": "floor B", "name_eng": "floor B"},
+    { "id": 9, "floor_id" : 3, "name_cht": "floor C", "name_eng": "floor C is very long"}
+  ],
 }
