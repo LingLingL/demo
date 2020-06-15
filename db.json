@@ -1,4 +1,11 @@
 {
+  "user": [
+    { "id": 1, "name_cht": "用戶一", "name_eng": "Amy" },
+    { "id": 2, "name_cht": "用戶二", "name_eng": "Bob" }
+    { "id": 3, "name_cht": "用戶三", "name_eng": "Charles" }
+  ],
+  "company": [
+  ],
   "posts": [
     { "id": 1, "title": "Ling testing" },
     { "id": 2, "title": "Post 2" },
