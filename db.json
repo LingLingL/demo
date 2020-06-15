@@ -32,14 +32,25 @@
     { "id": 9, "tower_id" : 3, "name_cht": "floor C", "name_eng": "floor C is very long"}
   ],
   "unit": [
-    { "id": 1, "floor_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
-    { "id": 2, "floor_id" : 1, "name_cht": "floor B", "name_eng": "floor B"},
-    { "id": 3, "floor_id" : 1, "name_cht": "floor C", "name_eng": "floor C is very long"},
-    { "id": 4, "floor_id" : 1, "name_cht": "floor A", "name_eng": "floor A"},
-    { "id": 5, "floor_id" : 2, "name_cht": "floor B", "name_eng": "floor B"},
-    { "id": 6, "floor_id" : 2, "name_cht": "floor C", "name_eng": "floor C is very long"},
-    { "id": 7, "floor_id" : 3, "name_cht": "floor A", "name_eng": "floor A"},
-    { "id": 8, "floor_id" : 3, "name_cht": "floor B", "name_eng": "floor B"},
-    { "id": 9, "floor_id" : 3, "name_cht": "floor C", "name_eng": "floor C is very long"}
+    { "id": 1, "floor_id" : 1, "name_cht": "unit A", "name_eng": "unit A"},
+    { "id": 2, "floor_id" : 1, "name_cht": "unit B", "name_eng": "unit B"},
+    { "id": 3, "floor_id" : 1, "name_cht": "unit C", "name_eng": "unit C is very long"},
+    { "id": 4, "floor_id" : 1, "name_cht": "unit A", "name_eng": "unit A"},
+    { "id": 5, "floor_id" : 2, "name_cht": "unit B", "name_eng": "unit B"},
+    { "id": 6, "floor_id" : 2, "name_cht": "unit C", "name_eng": "unit C is very long"},
+    { "id": 7, "floor_id" : 3, "name_cht": "unit A", "name_eng": "unit A"},
+    { "id": 8, "floor_id" : 3, "name_cht": "unit B", "name_eng": "unit B"},
+    { "id": 9, "floor_id" : 3, "name_cht": "unit C", "name_eng": "unit C is very long"}
   ],
+  "area": [
+    { "id": 1, "unit_id" : 1, "name_cht": "area A", "name_eng": "area A"},
+    { "id": 2, "unit_id" : 1, "name_cht": "area B", "name_eng": "area B"},
+    { "id": 3, "unit_id" : 1, "name_cht": "area C", "name_eng": "area C is very long"},
+    { "id": 4, "unit_id" : 1, "name_cht": "area A", "name_eng": "area A"},
+    { "id": 5, "unit_id" : 2, "name_cht": "area B", "name_eng": "area B"},
+    { "id": 6, "unit_id" : 2, "name_cht": "area C", "name_eng": "area C is very long"},
+    { "id": 7, "unit_id" : 3, "name_cht": "area A", "name_eng": "area A"},
+    { "id": 8, "unit_id" : 3, "name_cht": "area B", "name_eng": "area B"},
+    { "id": 9, "unit_id" : 3, "name_cht": "area C", "name_eng": "area C is very long"}
+  ]
 }
